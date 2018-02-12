@@ -1,0 +1,10 @@
+language: c
+before_install:
+  - sh ./scripts/install-travis-prereqs.sh
+  - mkdir ./published
+script:
+  - lilypond -o ./published -dbackend=svg melech-elyon-tenor.ly
+  - lilypond -o ./published -dbackend=svg melech-elyon-baritone.ly
+  - lilypond -o ./published -dbackend=svg melech-elyon-bass.ly
+  - lilypond -o ./published -dbackend=svg melech-elyon-fullscore.ly
+  - lilypond -o ./published -dbackend=svg melech-elyon-piano.ly

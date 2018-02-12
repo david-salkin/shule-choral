@@ -1,5 +1,6 @@
 %{
 	% Melech Elyon from Blue Book no.225 p.182
+  % lilypond -o ./published -dbackend=svg melech-elyon-fullscore.l
 %}
 \include "melech-elyon-global.ly"
 \include "melech-elyon-tenor-dat.ly"
