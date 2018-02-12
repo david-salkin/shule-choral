@@ -1,6 +1,6 @@
 language: c
 before_install:
-  - sh ./scripts/install-travis-prereqs.sh
+  - sh ./scripts/install-lily.sh
   - mkdir ./published
 script:
   - lilypond -o ./published -dbackend=svg melech-elyon-tenor.ly
