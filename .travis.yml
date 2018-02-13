@@ -8,3 +8,6 @@ script:
   - lilypond -o ./published -dbackend=svg melech-elyon-bass.ly
   - lilypond -o ./published -dbackend=svg melech-elyon-fullscore.ly
   - lilypond -o ./published -dbackend=svg melech-elyon-piano.ly
+notifications:
+  email:
+    - salkin.david@gmail.com

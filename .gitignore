@@ -1,0 +1,8 @@
+*.dep
+*.html
+*.pdf
+*.eps
+*.png
+tmp/
+pdf/
+snippet*
